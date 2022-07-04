@@ -1,0 +1,76 @@
+.main {
+    border: solid 1px black;
+    display: flex;
+    padding: 10px;
+}
+
+
+.menu-list {
+    display: flex;
+    width: 100px;
+    padding-bottom: 10px;
+
+}
+
+#about {
+    margin-right: 40px;
+}
+
+.menu-item {
+
+    margin-right: 100px;
+    padding: 2px;
+    color: limegreen;
+    font-size: 25px;
+    font-style: oblique;
+
+}
+
+.units:nth-child(2n+1) {
+    background-color: gainsboro;
+}
+
+.units {
+    border: solid 3px red;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    width: 100px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    border: dotted 1px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.unit-number {
+    color: red;
+}
+
+h1 {
+    color: green;
+    text-decoration: overline underline;
+}
+
+.additional-content{
+    border: outset;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    background: darkseagreen;
+
+}
+
+.main-content {
+
+    margin: 20px;
+    width: 700px;
+}
+
+.footer {
+    bacground: blue;
+}
